@@ -7,7 +7,7 @@ import { AdminLayoutRoutes } from './admin-layout.routing';
 
 import { DashboardComponent }       from '../../pages/dashboard/dashboard.component';
 import { StudentProfileComponent }            from '../../pages/studentProfile/studentProfile.component';
-import { TableComponent }           from '../../pages/table/table.component';
+import { LecturerProfileComponent }           from '../../pages/lecturerProfile/lecturerProfile.component';
 import { TypographyComponent }      from '../../pages/typography/typography.component';
 import { StudentManagementComponent }           from '../../pages/studentManagement/studentManagement.component';
 import { SubjectManagementComponent }            from '../../pages/subjectManagement/subjectManagement.component';
@@ -26,7 +26,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   declarations: [
     DashboardComponent,
     StudentProfileComponent,
-    TableComponent,
+    LecturerProfileComponent,
     UpgradeComponent,
     TypographyComponent,
     StudentManagementComponent,

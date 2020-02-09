@@ -16,6 +16,7 @@ import { LoginComponent } from './login/login.component';
 import { AddNewLecComponent } from './add-new-lec/add-new-lec.component';
 import { AddNewStudentComponent } from './add-new-student/add-new-student.component';
 import { EditStdProfileComponent } from './edit-std-profile/edit-std-profile.component';
+import { EditLecProfileComponent } from './edit-lec-profile/edit-lec-profile.component';
 
 
 @NgModule({
@@ -25,7 +26,9 @@ import { EditStdProfileComponent } from './edit-std-profile/edit-std-profile.com
     LoginComponent,
     AddNewLecComponent,
     AddNewStudentComponent,
-    EditStdProfileComponent
+    EditStdProfileComponent,
+    EditLecProfileComponent,
+    
   ],
   imports: [
     BrowserAnimationsModule,
@@ -39,6 +42,9 @@ import { EditStdProfileComponent } from './edit-std-profile/edit-std-profile.com
   },
   {path: 'EditStdProfile',
   component: EditStdProfileComponent
+  },
+  {path: 'EditLecProfile',
+  component: EditLecProfileComponent
   }]),
     RouterModule.forRoot(AppRoutes,{
       useHash: true

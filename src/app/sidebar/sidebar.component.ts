@@ -14,7 +14,7 @@ export const ROUTES: RouteInfo[] = [
     { path: '/subjectManagement',          title: 'Subject Management',              icon:'',      class: '' },
     { path: '/lecturerManagement', title: 'Lecturer Management',     icon:'',    class: '' },
     { path: '/studentProfile',          title: 'Student Profile',      icon:'',  class: '' },
-    { path: '/table',         title: 'Table List',        icon:'nc-tile-56',    class: '' },
+    { path: '/lecturerProfile',         title: 'Lecturer Profile',        icon:'',    class: '' },
     { path: '/typography',    title: 'Typography',        icon:'nc-caps-small', class: '' },
     { path: '/upgrade',       title: 'Upgrade to PRO',    icon:'nc-spaceship',  class: 'active-pro' },
 ];
