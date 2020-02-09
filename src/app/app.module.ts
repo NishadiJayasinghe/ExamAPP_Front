@@ -15,6 +15,7 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
 import { LoginComponent } from './login/login.component';
 import { AddNewLecComponent } from './add-new-lec/add-new-lec.component';
 import { AddNewStudentComponent } from './add-new-student/add-new-student.component';
+import { EditStdProfileComponent } from './edit-std-profile/edit-std-profile.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { AddNewStudentComponent } from './add-new-student/add-new-student.compon
     AdminLayoutComponent,
     LoginComponent,
     AddNewLecComponent,
-    AddNewStudentComponent
+    AddNewStudentComponent,
+    EditStdProfileComponent
   ],
   imports: [
     BrowserAnimationsModule,
@@ -34,6 +36,9 @@ import { AddNewStudentComponent } from './add-new-student/add-new-student.compon
   {
     path: 'AddNewStudent',
       component: AddNewStudentComponent
+  },
+  {path: 'EditStdProfile',
+  component: EditStdProfileComponent
   }]),
     RouterModule.forRoot(AppRoutes,{
       useHash: true
