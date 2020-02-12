@@ -10,11 +10,11 @@ export interface RouteInfo {
 
 export const ROUTES: RouteInfo[] = [
     { path: '/dashboard',     title: 'Dashboard',         icon:'nc-bank',       class: '' },
-    { path: '/studentManagement',         title: 'Student Management',             icon:'',    class: '' },
-    { path: '/subjectManagement',          title: 'Subject Management',              icon:'',      class: '' },
-    { path: '/lecturerManagement', title: 'Lecturer Management',     icon:'',    class: '' },
-    { path: '/studentProfile',          title: 'Student Profile',      icon:'',  class: '' },
-    { path: '/lecturerProfile',         title: 'Lecturer Profile',        icon:'',    class: '' },
+    { path: '/studentManagement',         title: 'Student Management',             icon:'nc-hat-3',    class: '' },
+    { path: '/subjectManagement',          title: 'Subject Management',              icon:'nc-paper',      class: '' },
+    { path: '/lecturerManagement', title: 'Lecturer Management',     icon:'nc-badge',    class: '' },
+    { path: '/studentProfile',          title: 'Student Profile',      icon:'nc-circle-10',  class: '' },
+    { path: '/lecturerProfile',         title: 'Lecturer Profile',        icon:'nc-single-02',    class: '' },
     { path: '/typography',    title: 'Typography',        icon:'nc-caps-small', class: '' },
     { path: '/upgrade',       title: 'Upgrade to PRO',    icon:'nc-spaceship',  class: 'active-pro' },
 ];
