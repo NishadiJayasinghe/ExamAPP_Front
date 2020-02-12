@@ -15,8 +15,6 @@ export const ROUTES: RouteInfo[] = [
     { path: '/lecturerManagement', title: 'Lecturer Management',     icon:'nc-badge',    class: '' },
     { path: '/studentProfile',          title: 'Student Profile',      icon:'nc-circle-10',  class: '' },
     { path: '/lecturerProfile',         title: 'Lecturer Profile',        icon:'nc-single-02',    class: '' },
-    { path: '/typography',    title: 'Typography',        icon:'nc-caps-small', class: '' },
-    { path: '/upgrade',       title: 'Upgrade to PRO',    icon:'nc-spaceship',  class: 'active-pro' },
 ];
 
 @Component({

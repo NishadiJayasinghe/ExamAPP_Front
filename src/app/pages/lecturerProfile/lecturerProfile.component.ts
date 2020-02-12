@@ -8,7 +8,8 @@ declare interface TableData {
 @Component({
     selector: 'table-cmp',
     moduleId: module.id,
-    templateUrl: 'lecturerProfile.component.html'
+    templateUrl: 'lecturerProfile.component.html',
+    styleUrls: ['./lecturerProfile.component.css']
 })
 
 export class LecturerProfileComponent implements OnInit{
