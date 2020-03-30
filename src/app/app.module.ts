@@ -17,6 +17,7 @@ import { AddNewLecComponent } from './add-new-lec/add-new-lec.component';
 import { AddNewStudentComponent } from './add-new-student/add-new-student.component';
 import { EditStdProfileComponent } from './edit-std-profile/edit-std-profile.component';
 import { EditLecProfileComponent } from './edit-lec-profile/edit-lec-profile.component';
+import { AddNewSubjectComponent } from './add-new-subject/add-new-subject.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { EditLecProfileComponent } from './edit-lec-profile/edit-lec-profile.com
     AddNewStudentComponent,
     EditStdProfileComponent,
     EditLecProfileComponent,
+    AddNewSubjectComponent,
     
   ],
   imports: [
@@ -39,6 +41,10 @@ import { EditLecProfileComponent } from './edit-lec-profile/edit-lec-profile.com
   {
     path: 'AddNewStudent',
       component: AddNewStudentComponent
+  },
+  {
+    path: 'AddNewSubject',
+      component: AddNewSubjectComponent
   },
   {path: 'EditStdProfile',
   component: EditStdProfileComponent

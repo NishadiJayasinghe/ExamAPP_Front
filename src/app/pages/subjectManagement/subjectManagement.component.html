@@ -1,41 +1,70 @@
 
 <div class="row">
   <div class="col-md-12">
-    <div class="card ">
-      <div class="card-body ">
-
-          <div class="row button1">           
-                <div class="col-md-6"></div>
-                <div class="col-md-4"></div>
-                <div class="col-md-2">
-                  <button type="submit" class="btn btn-primary btn-container">Add New Subject</button>
-                </div>            
-          </div>
-
-          <div class="row">         
+    <div class="card">
+      <div class="card-body">
+        <div class="places-buttons">
+          <div class="row">
             <div class="col-lg-8 ml-auto mr-auto">
               <div class="row">
-                <div class="table-responsive">
-                  <table class="table">
-                  </table>
-                  <div class="row">
-                    <div class="col-md-3">Course Code</div>
-                    <div class="col-md-3">Subject Name</div>
-                    <div class="col-md-3">Year</div>
-                    <div class="col-md-3">Semester</div>
-                  </div>
-                  <hr>
-                  <div class="row">
-                    <div class="col-md-3">00001</div>
-                    <div class="col-md-3">HCI</div>
-                    <div class="col-md-3">4</div>
-                    <div class="col-md-3">2</div>
-                  </div>
+                <div class="col-md-4">
                 </div>
+                <div class="col-md-4">
+                  <a routerLink='/AddNewSubject'><button type="button" class="btn btn-primary btn-block">Add new
+                      Subject</button></a>
+                </div>
+                <div class="col-md-4"> </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-body">
+          <div class="row button1">
+              <div class="col-md-4"></div>
+              <div class="col-md-4"></div>
+              <div class="col-md-4">
+                  <form>
+                      <div class="input-group no-border">
+                        <input type="text" value="" class="form-control" placeholder="Search by Reg Year, Semester">
+                        <div class="input-group-append">
+                          <div class="input-group-text">
+                            <i class="nc-icon nc-zoom-split"></i>
+                          </div>
+                        </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+          <div class="row">         
+            <div class="col-lg-8 ml-auto mr-auto">
+              <div class="row">
+                  <div class="table-responsive">
+                    <div class="row">
+                      <div class="col-md-3">Course Code</div>
+                      <div class="col-md-3">Subject Name</div>
+                      <div class="col-md-3">Year</div>
+                      <div class="col-md-3">Semester</div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                      <div class="col-md-3">00001</div>
+                      <div class="col-md-3">HCI</div>
+                      <div class="col-md-3">4</div>
+                      <div class="col-md-3">2</div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
