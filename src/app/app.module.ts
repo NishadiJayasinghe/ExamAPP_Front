@@ -18,6 +18,9 @@ import { AddNewStudentComponent } from './add-new-student/add-new-student.compon
 import { EditStdProfileComponent } from './edit-std-profile/edit-std-profile.component';
 import { EditLecProfileComponent } from './edit-lec-profile/edit-lec-profile.component';
 import { AddNewSubjectComponent } from './add-new-subject/add-new-subject.component';
+import { HComponent } from './h/h.component';
+import { ApplySubjectsComponent } from './apply-subjects/apply-subjects.component';
+import { ApproveSubjectsComponent } from './approve-subjects/approve-subjects.component';
 
 
 @NgModule({
@@ -30,6 +33,9 @@ import { AddNewSubjectComponent } from './add-new-subject/add-new-subject.compon
     EditStdProfileComponent,
     EditLecProfileComponent,
     AddNewSubjectComponent,
+    HComponent,
+    ApplySubjectsComponent,
+    ApproveSubjectsComponent,
     
   ],
   imports: [
