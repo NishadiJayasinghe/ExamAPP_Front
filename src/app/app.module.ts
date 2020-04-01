@@ -21,6 +21,7 @@ import { AddNewSubjectComponent } from './add-new-subject/add-new-subject.compon
 import { HComponent } from './h/h.component';
 import { ApplySubjectsComponent } from './apply-subjects/apply-subjects.component';
 import { ApproveSubjectsComponent } from './approve-subjects/approve-subjects.component';
+import { ApplyExamComponent } from './apply-exam/apply-exam.component';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { ApproveSubjectsComponent } from './approve-subjects/approve-subjects.co
     HComponent,
     ApplySubjectsComponent,
     ApproveSubjectsComponent,
+    ApplyExamComponent,
     
   ],
   imports: [
