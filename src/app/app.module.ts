@@ -67,6 +67,9 @@ import { ApprovalFormComponent } from './approval-form/approval-form.component';
   },
   {path: 'ApproveSubjects',
   component: ApproveSubjectsComponent
+  },
+  {path: 'ApprovalForm',
+  component: ApprovalFormComponent
   }
 ]),
     RouterModule.forRoot(AppRoutes,{
