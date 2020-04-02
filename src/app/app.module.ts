@@ -22,6 +22,7 @@ import { HComponent } from './h/h.component';
 import { ApplySubjectsComponent } from './apply-subjects/apply-subjects.component';
 import { ApproveSubjectsComponent } from './approve-subjects/approve-subjects.component';
 import { ApplyExamComponent } from './apply-exam/apply-exam.component';
+import { ApprovalFormComponent } from './approval-form/approval-form.component';
 
 
 @NgModule({
@@ -38,6 +39,7 @@ import { ApplyExamComponent } from './apply-exam/apply-exam.component';
     ApplySubjectsComponent,
     ApproveSubjectsComponent,
     ApplyExamComponent,
+    ApprovalFormComponent,
     
   ],
   imports: [
