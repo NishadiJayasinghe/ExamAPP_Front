@@ -59,7 +59,14 @@ import { ApplyExamComponent } from './apply-exam/apply-exam.component';
   },
   {path: 'EditLecProfile',
   component: EditLecProfileComponent
-  }]),
+  },
+  {path: 'ApplyExam',
+  component: ApplyExamComponent
+  },
+  {path: 'ApproveSubjects',
+  component: ApproveSubjectsComponent
+  }
+]),
     RouterModule.forRoot(AppRoutes,{
       useHash: true
     }),
