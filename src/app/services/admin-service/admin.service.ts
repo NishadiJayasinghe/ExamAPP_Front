@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 export class AdminService {
 
   private adminUrl =`${environment.host}/admin`;
-  constructor(  private http: HttpClient,) { }
+  constructor(  private http: HttpClient) { }
 
   public signUpStudent(data:any):Observable<any>{
     return this.http.post<any>(`${this.adminUrl}/studentSignup`,data);

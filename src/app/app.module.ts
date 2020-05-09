@@ -21,6 +21,9 @@ import { AddNewSubjectComponent } from './add-new-subject/add-new-subject.compon
 import { ApproveSubjectsComponent } from './approve-subjects/approve-subjects.component';
 import { ApplyExamComponent } from './apply-exam/apply-exam.component';
 import { ApprovalFormComponent } from './approval-form/approval-form.component';
+import { FormsModule } from '@angular/forms';
+import { AdminService } from './services/admin-service/admin.service';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -40,6 +43,8 @@ import { ApprovalFormComponent } from './approval-form/approval-form.component';
   ],
   imports: [
     BrowserAnimationsModule,
+    FormsModule,
+    HttpClientModule,
     RouterModule.forRoot([{
       path: 'AddNewLec',
       component: AddNewLecComponent
@@ -78,7 +83,9 @@ import { ApprovalFormComponent } from './approval-form/approval-form.component';
     FixedPluginModule
     
   ],
-  providers: [],
+  providers: [
+    AdminService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
