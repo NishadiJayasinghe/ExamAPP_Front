@@ -24,6 +24,7 @@ import { ApprovalFormComponent } from './approval-form/approval-form.component';
 import { FormsModule } from '@angular/forms';
 import { AdminService } from './services/admin-service/admin.service';
 import { HttpClientModule } from '@angular/common/http';
+import { StudentService } from './services/student-service/student.service';
 
 
 @NgModule({
@@ -84,7 +85,8 @@ import { HttpClientModule } from '@angular/common/http';
     
   ],
   providers: [
-    AdminService
+    AdminService,
+    StudentService
   ],
   bootstrap: [AppComponent]
 })
